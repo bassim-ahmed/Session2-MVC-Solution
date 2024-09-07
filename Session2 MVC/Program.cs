@@ -12,14 +12,14 @@
             //builder.Services.AddMvc();
 
             var app = builder.Build();
-
+            app.UseStaticFiles();//Middleware use for Static File
             //app.MapGet("/", () => "Hello World!");
             //app.MapGet("/Bassim", () => "Hello Bassim");
             //app.MapGet("/SignIn", SignIn);
             ////http://localhost:4555/Movies/GetMovie/1
             app.MapControllerRoute(
                 name: "Default",
-                pattern:"/{controller=Movies}/{action}/{id:int?}"
+                pattern:"/{controller=Home}/{action=Index}/{id:int?}"
                 );
 
             app.Run();

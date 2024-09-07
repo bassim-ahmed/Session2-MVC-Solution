@@ -7,4 +7,15 @@
     <RootNamespace>Session2_MVC</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\Movies\" />
+    <Folder Include="wwwroot\lib\" />
+    <Folder Include="wwwroot\Css\" />
+    <Folder Include="wwwroot\NewFolder\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.4" />
+  </ItemGroup>
+
 </Project>
