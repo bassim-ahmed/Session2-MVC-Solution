@@ -1,0 +1,41 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <!--Html Comment-->
+    @*C# commnt*@
+    @*start Header*@
+    <center>
+        <div class="mt-5">
+            <a href="/Home/Index" class="btn btn-danger">Home</a>
+            <a href="/Home/AboutUs" class="btn btn-primary">About Us</a>
+            <a href="/Home/ContactUs" class="btn btn-success">ContactUS</a>
+            <a href="/Home/Privacy" class="btn btn-warning">Privacy</a>
+        </div>
+    </center>
+    @*End header*@
+    @*Start Body*@
+    <center>
+        <div class="mt-5">
+            <h1>Welcome ToPrivacy </h1>
+        </div>
+    </center>
+    @*EndBody*@
+    @*Start Footer*@
+    <center class="mt-5">
+        <div>
+            <p>Copyright &copy;Route @DateTime.Now.Year </p>
+        </div>
+    </center>
+    @*End Footer*@
+</body>
+</html>
